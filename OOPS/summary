@@ -1,0 +1,20 @@
+Summary
+​​​​​​​So far you have learnt that:
+
+OOP is a style of programming which allows to club data and behavior together
+
+OOP is more suited for coding real life scenarios
+
+Objects are real world entities
+
+Classes are logical entities and are used for classification.
+
+Class is a description of attributes and behavior that objects of that classification should possess
+
+Common attributes are created using a special method called __init__
+
+Objects can be created using ClassName() or using object literals for the built in classes
+
+Attributes are created using the syntax, reference_variable.attribute_name = value
+
+Behavior is created by defining a function inside the class having a special parameter called self.
