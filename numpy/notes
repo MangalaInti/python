@@ -1,0 +1,4 @@
+NumPY is a python library used for working with arrays
+NumPy stands for Numerical Python.
+NumPy works faster than traditional python lists
+The array object in NumPy is called ndarray   
