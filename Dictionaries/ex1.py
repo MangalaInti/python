@@ -20,6 +20,12 @@ print(dict3)
 
 dict1.update(dict2)
 print(dict1)
+
+#Alternate way
+dict3 = dict1.copy()
+dict3.update(dict2)
+print(dict3)
+
 #Create a dictionary by extracting the keys from a given dictionary
 sample_dict = {
     "name": "Kelly",
