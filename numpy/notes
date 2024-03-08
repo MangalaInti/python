@@ -1,4 +1,16 @@
-NumPY is a python library used for working with arrays
+NumPY is a python library used for working with arrays and multidimensional arrays
 NumPy stands for Numerical Python.
 NumPy works faster than traditional python lists
 The array object in NumPy is called ndarray   
+
+NumPy - Numerical Python
+
+What is an array?
+
+An array is a datatype. Arrays are grid like structure which can take in homogenous type values and store them in a sequence.
+They can be accessed by their position is called indices start from zero and go on till length of the array.
+
+Numpy arrays are of 3 types
+1. Integer arrays
+2. Float arrays
+3. Unicode arrays which we call strings
