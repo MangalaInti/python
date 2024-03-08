@@ -1,0 +1,2 @@
+As Maria's list is going to have frequent additions and deletions, it may not be a good choice to implement it using arrays. 
+There is one more implementation for list which is using Linked List. Let's explore list using linked list.
