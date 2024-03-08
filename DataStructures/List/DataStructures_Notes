@@ -1,0 +1,24 @@
+
+Data structures represent the way of arranging data in computer so that it can be accessed and used efficiently. It is all about grouping and storing collections of data in memory, operations that can be performed on these collections and algorithms that can be used for these operations.
+
+There are different types of data structures like list, stack, queue etc. Each of them are suitable for specific type of tasks.
+
+We will be exploring the below data structures in this course.
+
+--List 
+ 1.Is a linear data structure
+
+ 2. Is used to store a sequence of values
+
+ 3. It can grow and shrink dynamically based on need
+
+Common Operations in Lists
+
+Operation	Description
+ add	    Add an element to the end of the list or append an element
+ insert	 Insert an element at a given position
+ delete	 Delete an element from a given position
+ display	 Display the elements of the list
+
+
+List can be implemented using array or linked list. Let’s begin with the array implementation.
