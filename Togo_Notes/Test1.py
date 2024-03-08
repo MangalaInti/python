@@ -4,6 +4,10 @@ dir(sys)
 
 help(sys.getsizeof)
 
+import numpy as np
+
+print(dir(np))
+
 Spark do it in memory, Hadoop has to read from disk and write to disk
 
 https://colab.research.google.com
