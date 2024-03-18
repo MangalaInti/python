@@ -1,2 +1,12 @@
 As Maria's list is going to have frequent additions and deletions, it may not be a good choice to implement it using arrays. 
 There is one more implementation for list which is using Linked List. Let's explore list using linked list.
+
+A linked list consists of a group of nodes which together represent a sequence or a list. Each node will have a data part which holds the actual data and an address part which holds the link to the next node. The first node in the list is known as head node and the last node is known as tail node. Unlike array, in linked list, the nodes need not be stored in contiguous memory locations.
+
+class node:
+   def __init__(self, data)
+     self.__data = data
+     self.__next = None ---> This node is not linked to any other node when its created.
+
+item_node = node('Sugar')
+                                                        
