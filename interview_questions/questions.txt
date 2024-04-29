@@ -1,0 +1,4 @@
+1. How files can be deleted in python ?
+   You need to import os module and os.remove() function
+   import os
+   os.remove('file_name.txt')
