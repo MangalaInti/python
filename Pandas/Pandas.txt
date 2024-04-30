@@ -1,0 +1,19 @@
+Pandas is Data manipulation library in python
+
+Pandas excels in handling missing data, reshaping datasets, merging and joining multiple datasets, and performing complex operations on data, making it exceptionally useful for data cleaning and manipulation
+
+Data Cleansing : It is crucial step in data analysis involving refining, correcting and preparing raw data for its meaning insights and accurate decision making
+Data cleansing  involves following functions
+ 1. Handling missing values
+ 2. Removing duplicates
+ 3. Data inconsistencies
+ 4. Datatype conversions
+
+*******************************************************************************************************************************************************************************
+import pandas as pd
+customer_df = pd.read_csv('C1S01T21_DSN.csv')
+print(customer_df.tail(5))
+print(customer_df.head(5))
+print(customer_df.columns)
+print(customer_df.describe)
+print(customer_df.shape)
