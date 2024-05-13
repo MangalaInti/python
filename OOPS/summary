@@ -18,3 +18,10 @@ Objects can be created using ClassName() or using object literals for the built 
 Attributes are created using the syntax, reference_variable.attribute_name = value
 
 Behavior is created by defining a function inside the class having a special parameter called self.
+
+
+--Inheritance : Ability of a class to inherit the properties and methods from its parent class
+--Polyphorphism : Ability of an object to take different forms or behavior based on the context
+--Abstraction : Represnting essential features and hiding unnessary details to simplfy the complexity
+--Encapsulation: Building data and methods that operate on a data within a single unit(class)
+
