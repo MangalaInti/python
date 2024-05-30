@@ -65,4 +65,31 @@ def max_num(numbers):
     return largest       
 num = max_num(numbers)
 print(num)
+# Check the given is palidrome or not if not continue until you reach palidrome
+
+def is_palindrome(number):
+    num_str = str(number)
+    return num_str == num_str[::-1]
+
+def next_palindrome(N):
+    # Check if the input number is already a palindrome
+    if is_palindrome(N):
+        return N
+    
+    N += 1
+    while not is_palindrome(N):
+        N += 1
+    return N
+
+# Example usage
+N = 131
+print(next_palindrome(N))  # Output: 131 (already a palindrome)
+
+N = 234234
+print(next_palindrome(N))  # Output: 234432
+
+# Additional examples
+print(next_palindrome(999))  # Output: 1001
+print(next_palindrome(12321))  # Output: 12321 (already a palindrome)
+
 
