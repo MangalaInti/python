@@ -18,6 +18,9 @@ print(dict3)
 
 #Alternate way
 
+dict3 = dict1 | dict2
+#Alternate way
+
 dict1.update(dict2)
 print(dict1)
 
