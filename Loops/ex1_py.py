@@ -58,4 +58,13 @@ n=5
 for i in range(1,n+1):
     factorial = i*i
 print(factorial)   
-    
+
+#Write a pgm to display all number 1 to 100
+i =1
+while i <=100:
+    print(i, end = ' ') 
+    i = i+1
+
+#Using for loop
+for i in range(1,101):
+    print(i, end = ' ')
