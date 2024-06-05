@@ -92,4 +92,25 @@ print(next_palindrome(N))  # Output: 234432
 print(next_palindrome(999))  # Output: 1001
 print(next_palindrome(12321))  # Output: 12321 (already a palindrome)
 
+#which element has occured how many times
+lst = [10, 10, 1, 5, 6, 8, 7, 9, 1, 1, 4]
+
+# Create an empty dictionary to store element counts
+element_counts = {}
+
+# Iterate over the list
+for element in lst:
+    # Check if the element is already in the dictionary
+    if element in element_counts:
+        # If it is, increment the count
+        element_counts[element] += 1
+    else:
+        # If not, initialize its count to 1
+        element_counts[element] = 1
+
+# Print the count of each element
+for element, count in element_counts.items():
+    print(f"{element} has occurred {count} times")
+
+
 
