@@ -1,0 +1,4 @@
+A data structure is an arrangement of data in computer memory. It supports operations like read, write, delete, etc to be performed on data stored.
+It is an effective technique for storing and organizing data.  End users expect an application to store and retrieve the data at high speed. Ex.  Array, linked list, stack, queue, etc.
+
+They help enhance the performance of the applications by storing and retrieving the data at a faster speed
