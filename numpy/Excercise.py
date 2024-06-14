@@ -56,3 +56,21 @@ print(array_with_arange)
 
 print(np.zeros((2,3)))
 print(np.ones((1,5)))
+
+------------------------------
+
+import numpy as np
+list = [[1,2,3],[5,6,7],[3,4,5]]
+arr = np.array(list)
+print(arr)
+shape = arr.shape
+print(shape, 'shape') # number of rows and columns
+size = arr.size
+print(size,'size') # number of elements
+dim = arr.ndim # number of opening brackets
+print(arr.dtype) # to know datatype
+print(dim)
+
+# Array indexing and slicing
+
+print(arr[0,2]) #o/p is  3
