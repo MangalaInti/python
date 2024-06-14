@@ -59,5 +59,42 @@ print(res)
         return 'No Ticket'
 
 caught_speeding(81,True)
-caught_speeding(81,False)        
+caught_speeding(81,False)    
+
+#List of elements identical
+my_list = [1,1,1,1,1]
+all_identical = len(set(my_list)) == 1
+print(all_identical)
+OR
+my_list = [1, 1, 1, 1]
+
+all_identical = my_list.count(my_list[0]) == len(my_list)
+print(all_identical)  # Output: True
+
+# Loop Over Multiple Sequences
+first_names = ['mangala','Pramaan','Prabhu']
+last_names = ['inti','inti','mushini']
+
+for first, last in zip(first_names,last_names):
+    print(first,last)
+#Difference between two lists
+lst1 = [9,3,6,7,8,4]
+lst2 = [9,3,7,5,2,1]
+
+diff = set(lst1).difference(set(lst2))
+print(list(diff))    
+
+#Indices Using Len & Range Functions
+names = ['john','eric','matt']
+
+for n in range(len(names)):
+    print(n, names[n])
+
+names = ['John', 'Art', 'Messi']
+for i in range(len(names)):
+if names[i] == 'Messi':
+print(f'The index of the name {names[i]} is {i}')
+break
+Output:
+The index of the name Messi is 2
 
