@@ -1,0 +1,11 @@
+API - Application Programming interface. It is an interface between two applications. It takes the request and send response
+Types of API
+- SOAP
+- JSON
+- REST
+- XML
+
+Postman is a tool which sends request from client to server
+
+API helps two different programs to talk to each other e.g java and DB will talk using JDBC which is API
+
