@@ -1,4 +1,5 @@
 API - Application Programming interface. It is an interface between two applications. It takes the request and send response
+API - Application Programming Interface. It is an interaction between client and server
 Types of API
 - SOAP
 - JSON
