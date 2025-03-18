@@ -1,0 +1,31 @@
+extend() and append() are methods in python both add elements to a list. but they work differently
+
+Append() - Adds as single element to the end of the list
+x = list(range(1,11))
+y = list(range(12,16))
+
+x.append(y)
+print(x)
+#output - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, [12, 13, 14, 15]]
+-------------
+
+my_list = [1, 2, 3]
+my_list.append(4)   # Adds 4 as a single element
+print(my_list)      # Output: [1, 2, 3, 4]
+
+my_list.append([5, 6])  # Adds the list [5, 6] as a single element
+print(my_list)          # Output: [1, 2, 3, 4, [5, 6]]
+
+Extend() - it adds each element to the original list, by extending the list
+my_list = [1, 2, 3]
+my_list.extend([4, 5])   # Adds each element of the list [4, 5]
+print(my_list)           # Output: [1, 2, 3, 4, 5]
+
+my_list.extend('abc')    # Adds each character from the string 'abc'
+print(my_list)           # Output: [1, 2, 3, 4, 5, 'a', 'b', 'c']
+
+Key Differences:
+append(): Adds one element (could be a single item or a collection like a list).
+extend(): Adds multiple elements from an iterable to the list.
+
+
