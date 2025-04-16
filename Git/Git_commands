@@ -1,0 +1,42 @@
+**GIT
+ 
+ --Getting started
+git init
+git clone
+--Move between branches
+git branch
+git checkout
+git switch
+--restore old files
+git checkout
+git restore
+--prepraring to commit
+git status
+git add
+git mv
+git rm
+git diff
+git reset
+--working with others
+git pull
+git push
+git fetch
+git remote
+--making commits
+git commit
+--configuring Git
+git config
+git remote
+--trash my changes
+git stash
+git checkout
+git reset --hard
+git rebase -i
+--git troubleshooting
+git log brach
+git status
+git diff
+git reglog
+--Editing History  
+git rebase -i, 
+git reset --hard
