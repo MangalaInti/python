@@ -39,3 +39,24 @@ positive_sum = sum(num for num in numbers if num > 0)
 # Print the result
 print(f"The sum of all positive numbers is: {positive_sum}")
 
+# Given list of numbers, find minimum and maximum values
+
+#Method 1 using loop
+lst = [2, 4, 70, 70, 56, 3]
+
+# Initialize min and max with the first element of the list
+min_num = max_num = lst[0]
+
+for num in lst:
+    if num < min_num:
+        min_num = num
+    if num > max_num:
+        max_num = num
+
+print("Minimum number:", min_num)
+print("Maximum number:", max_num)
+
+#Method 2 using loop
+print(min(lst))
+print(max(lst))
+
