@@ -29,4 +29,19 @@ lambda x: x * x defines an anonymous function that squares a number.
 map(...) applies this function to each element in the list.
 list(...) converts the result from a map object to a list.
 
+#Create a function that takes a list of strings and returns  the list sorted alphabetically
+
+def sort_strings(string_list):
+    return sorted(string_list)
+
+print(sort_strings(['hen', 'cow', 'man', 'elephant', 'ant']))
+
+#Write a function that takes two lists and returns their intersection(common) elements
+def intersection(lst1, lst2):
+    return list(set(lst1).intersection(set(lst2)))
+
+print(intersection([1, 2, 3, 4, 5], [3, 4, 5, 6]))
+
+
+
 
