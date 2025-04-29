@@ -42,6 +42,14 @@ def intersection(lst1, lst2):
 
 print(intersection([1, 2, 3, 4, 5], [3, 4, 5, 6]))
 
+#Check if the given year is leap year or not
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 4 == 0):
+        return True
+    else:
+        return False
+print(is_leap_year(2020))   
+
 
 
 
