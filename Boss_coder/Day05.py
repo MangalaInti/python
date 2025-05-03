@@ -22,7 +22,17 @@ def count_names_starting_with_vowel(names):
     return count
 
 print(count_names_starting_with_vowel(['Hello', 'Pramaan', 'Welcome', 'to', 'NJ', 'Alice', 'Eve']))
- 
+
+# Write a function to remove duplicate characters from a string
+def remove_duplicates(input_string):
+    seen = set()
+    result = []
+    for char in input_string:
+        if char not in seen:
+            seen.add(char)
+            result.append(char)
+    return ''.join(result)   
+print(remove_duplicates('pramaan'))    
 
 
 
