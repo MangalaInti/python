@@ -28,7 +28,7 @@ word_count = len(words)
 # Print the result
 print(f"The sentence contains {word_count} word(s).")
 
-#Given a list of integers, find the sum of all positive numbers
+#**Given a list of integers, find the sum of all positive numbers
 
 # Define the list of integers
 numbers = [3, -1, 7, -4, 2, -6, 8]
