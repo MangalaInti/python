@@ -69,3 +69,48 @@ print(Difference_set2)
 & → Intersection
 
 - → Difference
+
+ #Create a function that takes a list of dictionaries and sorts them based on a speficied key
+def sort_dict_by_keys(data,sort_key):
+    return sorted(data, key = lambda x: x[sort_key])
+
+list1 = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}, {"name": "joe", "age": 35},
+     {"name": "Jill", "age": 32}]
+
+sorted_list1 = sort_dict_by_keys(list1, 'age')
+print(sorted_list1)
+
+#Write a pgm that finds the average value of all the elements in alist of dictionaries
+
+list1 = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}, 
+         {"name": "joe", "age": 35}, {"name": "Jill", "age": 32}]
+
+# Extract ages and compute average
+avg = sum(d['age'] for d in list1) / len(list1)
+print(f"Average age: {avg}")
+
+This version uses a generator expression inside sum() to avoid creating an intermediate list (list2), which is more memory-efficient and concise
+
+#Implement a function that takes a list of strings  and returns a set of unique characters present in all strings
+
+def unique_character_lst_strings(lst1):
+    unique_character = []
+    
+    for word in lst1:
+        for letter in word:
+            if letter not in unique_character:
+                unique_character.append(letter)
+    return unique_character
+
+# Now outside the function
+lst1 = ['mangoes', 'apples', 'kiwi']
+res = unique_character_lst_strings(lst1)
+print(res)
+
+
+
+
+
+
+
+
