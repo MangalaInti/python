@@ -1,1 +1,2 @@
-
+1. my_str.reverse() is only in list
+2. ''.join(my_str) = > convert list to string
