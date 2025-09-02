@@ -6,6 +6,8 @@ my_dict = {keys[i]: values[i] for i in range(len(keys))}
 print(my_dict)
 #Alternate way to above problem
 
+Zip() function will aggregate two lists
+Zip(keys,values)
 result_dict = {i: j for i, j in zip(keys, values)}
 
 print(result_dict)
