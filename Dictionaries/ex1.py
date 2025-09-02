@@ -39,7 +39,7 @@ sample_dict = {
     "city": "New york"}
 
 # Keys to extract
-keys = ["name", "salary"]
-
-dict1 = {k: sample_dict[k] for k in keys}
-print(dict1)
+keys_extract = ["name", "salary"]
+ 
+new_dict = {k: sample_dict[k] for k in keys_extract if k in sample_dict}
+print(new_dict)
