@@ -35,7 +35,7 @@ o/p = > result = json.dumps(toy_conditions, sort_keys = True)
 
 --Saving the json result to .json file
 json.dumps  => "Dump to string"  i.e output Returns A String
-json.dum =>  "Dump to a File"
+json.dump =>  "Dump to a File"
 
 import json
 
