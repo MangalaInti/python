@@ -24,6 +24,27 @@ samplejson = {"id" : 1, "name" : "value1", "age" : 26}
 print(" started writing json data into a file")
 with open("outfile.json", mode = "w", encoding = "utf8") as f:
   json.dump(outfile, f,indent = 2, sort_keys = "True")
+
+# Conver the following vechile object into json
+
+import json
+from json import JSONEncoder
+
+class Vehicle:
+    def __init__(self, name, engine, price):
+        self.name = name
+        self.engine = engine
+        self.price = price
+
+class VehicleEncoder(JSONEncoder):
+    def default(self, o):
+        return o.__dict__
+
+v1 = Vehicle("Toyota Rav4", "2.5L", 32000)
+
+print("Encode Vehicle Object into JSON")
+vehicleJson = json.dumps(v1, indent=4, cls=VehicleEncoder)
+print(vehicleJson)
      
 
 
