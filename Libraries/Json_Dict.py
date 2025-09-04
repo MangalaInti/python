@@ -24,6 +24,14 @@ with open('data.json', 'r') as f:
   data = json.load(f)
 print(data["name"])
 
+--python -m_json.tool data.json  => runs to shell to read json file in format
+
+--how to validate json syntax using command line
+python -m json.tool <filename>
+
+--indent parameter is used to make output more readable
+  
+
 
 
 
