@@ -16,4 +16,17 @@ data = {"key1" : "value1", "key2" : "value2"}
 res = json.dumps(data, indent =2 separator = (",", "="))
 print(res)
 
+# Sort the json keys and write them to  a file
+
+import json
+samplejson = {"id" : 1, "name" : "value1", "age" : 26}
+
+print(" started writing json data into a file")
+with open("outfile.json", mode = "w", encoding = "utf8") as f:
+  json.dump(outfile, f,indent = 2, sort_keys = "True")
+     
+
+
+
+
 
