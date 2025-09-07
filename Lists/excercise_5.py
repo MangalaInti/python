@@ -22,6 +22,15 @@ list2 = ["Dear", "Sir"]
 list3 = [i +j for i in list1 for j in list2]
 print(list3)  
 
+#Iterate both lists simultaneously
+
+list1 = [10, 20, 30, 40]
+list2 = [100, 200, 300, 400]
+list3 = []
+
+for i,j in zip(list1,list2[::-1]):
+ print(i,j)
+
      
 
 
