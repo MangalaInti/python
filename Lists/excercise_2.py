@@ -9,10 +9,12 @@ chunks.reverse()
 print(chunks)
 
 #Replace list’s item with new value if found
+#Replace list’s item with new value if found
 list1 = [5, 10, 15, 20, 25, 50, 20]
-index = list1.index(20)
-list1[index] =200
-print(list1)    
+new_value = 'a'
+# Replace all occurrences of 20
+list1 = [new_value if item == 20 else item for item in list1]
+print(list1)   
 
 #Remove all occurrences of a specific item  20 from a list.
 list1 = [5, 20, 15, 20, 25, 50, 20]
