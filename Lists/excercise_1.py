@@ -4,7 +4,11 @@ res = []
 for n in nums:
     if n not in res:
         res.append(n)
-print(res)        
+print(res)   
+
+# Method2
+ x = dict1.fromkeys(nums)
+ print(x)
 
 # sample indexing
 str = 'apple' #5
