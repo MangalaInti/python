@@ -5,8 +5,15 @@ for i in word[0::2]:
   print(i)
 
 #.find(), .count() these methods can used in strings & lists
+find() method is used to find the substring in given string, if the substring is found it returns the lowest index of the substring
+
 s = 'linkedin'
-print(s.find('n'))
+x = s.find('n')
+print(x)
+
+count() method is used count the number of times the item/element occured in given string
+x = s.count('n')
+print(x)
 
 # Palidrome
 def palidrome(num):
