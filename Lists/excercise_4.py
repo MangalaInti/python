@@ -4,12 +4,17 @@ list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 filtered_list = list(filter(None,list1))
 print(filtered_list)
 
-# Remove duplicates from list
-list_with_duplicates = [1, 2, 2, 3, 1, 4, 5, 4]
+#Method2
 
-#convert list to set
-unique_elements = list(set(list_with_duplicates))
-print(unique_elements)
+for i in list1:
+    if len(i)<=0:
+        list1.remove(i)
+ print(list1)
+
+#Method3
+list_of_lists = [[1,2],[],[3,4],[5,6]]
+res = list(filter(lambda x: x!=[], list_of_lists))
+print(res)
 
 # Remove all the items that occur more than once in a list
 
@@ -23,7 +28,6 @@ for item in list1:
 # keep only items with count == 1  
 list2=  [x for x in list1 if freq[x] ==1 ] 
 print(list2)
-
 
 
 ***Explanation*****
