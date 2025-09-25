@@ -10,6 +10,14 @@ print(res)
  x = dict1.fromkeys(nums)
  print(x)
 
+#method3
+# Remove duplicates from list
+list_with_duplicates = [1, 2, 2, 3, 1, 4, 5, 4]
+
+#convert list to set
+unique_elements = list(set(list_with_duplicates))
+print(unique_elements)
+
 # sample indexing
 str = 'apple' #5
 for i in range(len(str)):
