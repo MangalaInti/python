@@ -25,9 +25,14 @@ freq = {}
 for item in list1:
     freq[item] = freq.get(item,0) +1
 
-# keep only items with count == 1  
+#Get item with highest count
+most_frequent_item = max(freq, key =freq.get())
+print(most_frequent_item)
+
+
+///# keep only items with count == 1  
 list2=  [x for x in list1 if freq[x] ==1 ] 
-print(list2)
+print(list2)///
 
 
 ***Explanation*****
