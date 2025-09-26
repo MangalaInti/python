@@ -9,7 +9,6 @@ chunks.reverse()
 print(chunks)
 
 #Replace list’s item with new value if found
-#Replace list’s item with new value if found
 list1 = [5, 10, 15, 20, 25, 50, 20]
 new_value = 'a'
 # Replace all occurrences of 20
@@ -21,4 +20,17 @@ list1 = [5, 20, 15, 20, 25, 50, 20]
 while 20 in list1:
      list1.remove(20)
 print(list1)    
+
+# Replace all occurence of 20 with 200
+list1 = [5, 10, 15, 20, 25, 50, 20]
+list1 = list(map(lambda x: 200 if x == 20 else x, list1))
+print(list1)
+#Method II
+list1 = [5, 10, 15, 20, 25, 50, 20]
+
+for i in range(len(list1)):
+    if list1[i] == 20:
+        list1[i] = 200
+
+print(list1)
     
